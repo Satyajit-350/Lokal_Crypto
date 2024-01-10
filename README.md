@@ -1,6 +1,7 @@
 # CryptoCompose
 A simple Application built with Jetpack Compose to display the Crypto Currency Exchange Rates. This app follows a clean architecture design, making it robust and maintainable. It seamlessly integrates modern technologies like Paging3 and Room DB to efficiently handle data, while adhering to the MVVM (Model-View-ViewModel) pattern for structured and scalable code. The data is refreshed in every 3 minutes.
-Api used from CoinLayer.
+Api used from CoinLayer. 
+- The crypto item shows a graph📈📉(build with canvas and compose) which is randomly generated with dummy data as the api does not provides any data for it.
 ## Techs Used 💻
 - 100% [Kotlin](https://kotlinlang.org/) based
 - [Jetpack Compose](https://developer.android.com/jetpack/compose) - modern toolkit for building native Android UI.
